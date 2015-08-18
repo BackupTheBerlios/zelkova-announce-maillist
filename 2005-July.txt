@@ -1,0 +1,27 @@
+From advance at berlios.de  Thu Jul 21 15:39:40 2005
+From: advance at berlios.de (Dongsu Park)
+Date: Thu, 21 Jul 2005 13:39:40 +0000
+Subject: [Zelkova-announce] Welcome to the zelkova-announce mailing list.
+Message-ID: <20050721133940.GA11777@dongsu.pe.kr>
+
+Welcome to the zelkova-announce mailing list.
+This list will announce important newses about the Zelkova project, such as
+official release, development changes and development status.
+
+Zelkova a firewall with capabilities of Intrusion Prevention System. It is
+based on Linux kernel, but does not use the traditional netfilter packet
+filter firewall. Instead it contructs a new framework which is totally
+different from anything ever seen. It will be implemented with the FIS(Fat
+Inverted Segment) Tree model, which processes high traffics in a significantly
+fast speed. It will also include application-layer filtering capabilities such
+as pattern matching, protocol matchers, protocol anomaly detectors, and so on.
+Of course the core of these modules is a pattern matching module, and I will
+implement this module with modern effective pattern matching algorithms such
+as Boyer-Moore and Aho-Corasick. 
+
+You can find detailed informations in <http://dongsu.net/zelkova/>
+or <http://developer.berlios.de/projects/zelkova/>
+
+Thank you.
+
+
